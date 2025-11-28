@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Base colors */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #252525;
+  --bg-tertiary: #2d2d2d;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --text-muted: #808080;
+  
+  /* Border colors */
+  --border-color: #404040;
+  --border-color-light: #505050;
+  
+  /* Status colors */
+  --success-bg: #1e3a1e;
+  --success-text: #4caf50;
+  --error-bg: #3a1e1e;
+  --error-text: #ff5252;
+  --warning-bg: #3a351e;
+  --warning-text: #ffd740;
+  
+  /* JSON Tree colors */
+  --json-string: #7ec699;
+  --json-number: #66b2ff;
+  --json-boolean: #7c9cff;
+  --json-null: #808080;
+  --json-key: #c792ea;
+  
+  /* Input and button colors */
+  --input-bg: #2d2d2d;
+  --input-border: #404040;
+  --button-primary: #2c5282;
+  --button-hover: #3c6fb0;
+  --button-disabled: #4a4a4a;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
